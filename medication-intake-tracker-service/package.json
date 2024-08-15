@@ -1,0 +1,23 @@
+{
+  "name": "example-service",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node ./src/main.js",
+    "start:dev": "nodemon ./src/main.js",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pg": "^8.12.0"
+  }
+}
